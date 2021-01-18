@@ -194,6 +194,8 @@
 
 }
 
+/*Hero menu*/
+
 .hero {
     background: #d9fcf5;
     background: linear-gradient(to bottom,#a3e4d7, #d9fcf5);
@@ -402,6 +404,11 @@
     background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
     background: linear-gradient(to right, #dd2476, #ff512f);
   }
+
+  .resposnive{
+    max-width: 425px;
+    height: auto;
+  }
   
   /* Mobile Responsive */
   @media screen and (max-width: 1100px) {
@@ -604,6 +611,14 @@
   .gallery img:hover {
     filter: grayscale(100%);
     transform: scale(1.1);
+  }
+
+  /* Images */
+  .img-responsive{
+    display: block;
+    align-self: center;
+    max-width: 70%;
+    height: auto;
   }
   
   /* Footer CSS */
