@@ -1,46 +1,49 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> F99103's web project </title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
-</head>
-
-<body>
+    <script src="lightbox-plus-jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Section -->
     <nav class="navbar">
-        <div class="navbar__container">
-          <a href="index.html" id="navbar__logo">Rola Art</a>
-          <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-          <ul class="navbar__menu">
-            <li class="navbar__item">
-              <a href="index.html" class="navbar__links" id="home-page">Home</a>
-            </li>
-            <li class="navbar__item">
-              <a href="photography.html" class="navbar__links" id="gallery-page">Gallery</a>
-            </li>
-            <li class="navbar__item">
-              <a href="programming.html" class="navbar__links" id="code-page"
-                >Code Hub</a
-              >
-            </li>
-            <li class="navbar__btn">
-              <a href="contacts.html" class="button" id="contacts">Contacts</a>
-            </li>
-          </ul>
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo">Rola Art</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-      </nav>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="contacts.html" class="button" id="contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Gallery -->
+    <div class="gallery">
+        <a href="Images/Raven01.jpg" data-lightbox="mygallery" data-title="Summer Photoshoot"><img src="Images/Raven01.jpg"></a>
+        <a href="Images/Raven01_1.jpg" data-lightbox="mygallery"><img src="Images/Raven01_1.jpg"></a>
+        <a href="Images/Raven01_2.jpg" data-lightbox="mygallery"><img src="Images/Raven01_2.jpg"></a>
+        <a href="Images/Raven01_3.jpg" data-lightbox="mygallery"><img src="Images/Raven01_3.jpg"></a>
+        <a href="Images/Raven01_4.jpg" data-lightbox="mygallery"><img src="Images/Raven01_4.jpg"></a>
+    </div>
+
       <!-- Footer Section -->
     <div class="footer__container">
         <div class="footer__links">
