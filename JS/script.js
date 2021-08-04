@@ -7,7 +7,7 @@ const mobileMenu = () => {
   };
   
   menu.addEventListener('click', mobileMenu);
-
+  
   // Show active menu when scrolling
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
