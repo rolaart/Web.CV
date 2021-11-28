@@ -737,6 +737,8 @@
     }
   }
 
+
+/* Comment Section */
 .comment__container{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -752,7 +754,7 @@
 .name__textarea
 {
     height: 50px;
-    width: 100px;
+    width: 200px;
     border: none;
     background-color: #adf5e6;
     margin-bottom: 10px;
@@ -784,4 +786,35 @@ input[type="submit"], .cancel__btn{
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 15px;
+}
+
+.comments{
+  background-color: #d9fcf5;
+  padding: 10px 150px;
+  margin-bottom: 20px;
+}
+
+.name, .comment{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+.name h2{
+  border-bottom: 2px solid #8360c3;
+  font-size: 2rem;
+  background-color: #2ebf91;
+  background-image: linear-gradient(to top, #8360c3 0%, #2ebf91 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 32px;
 }
