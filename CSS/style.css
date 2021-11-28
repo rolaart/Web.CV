@@ -736,3 +736,52 @@
       width: 100%;
     }
   }
+
+.comment__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+  border: 2px solid #833ab4;
+}
+
+.name__textarea
+{
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #adf5e6;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+
+.comment__textarea
+{
+    height: 100px;
+    width: 200px;
+    border: none;
+    background-color: #adf5e6;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+
+input[type="submit"], .cancel__btn{
+  color: #fff;
+  background-color: #2ebf91;
+  background-image: linear-gradient(to bottom, #8360c3 0%, #2ebf91 100%);
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
